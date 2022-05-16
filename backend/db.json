@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "name": "ubaid",
+      "company": "TYSS",
+      "salary": "20000",
+      "id": 1
+    },
+    {
+      "data": {
+        "name": "abdul",
+        "company": "tyss",
+        "salary": "40000",
+        "id": 4
+      },
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "cache-control": "no-cache",
+        "content-length": "74",
+        "content-type": "application/json; charset=utf-8",
+        "expires": "-1",
+        "pragma": "no-cache"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {
+          "FormData": null
+        },
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "baseURL": "http://localhost:5000",
+        "method": "get",
+        "url": "/users/4"
+      },
+      "request": {},
+      "id": 4
+    },
+    {
+      "name": "musaib",
+      "company": "wipro",
+      "salary": "50000",
+      "id": 6
+    }
+  ]
+}
